@@ -3,6 +3,7 @@
 interface YtPlayer {
   loadVideoById(opts: { videoId: string; startSeconds: number }): void;
   seekTo(seconds: number, allowSeekAhead: boolean): void;
+  playVideo(): void;
   getCurrentTime(): number;
 }
 
@@ -63,7 +64,11 @@ export async function createPlayer(
         onReady: () =>
           resolve({
             load: (id, startSeconds) => yt.loadVideoById({ videoId: id, startSeconds }),
-            seek: (seconds) => yt.seekTo(seconds, true),
+            // seekTo leaves a paused player paused; resync must also un-stall it.
+            seek: (seconds) => {
+              yt.seekTo(seconds, true);
+              yt.playVideo();
+            },
             currentTime: () => yt.getCurrentTime() ?? 0,
           }),
         onStateChange: (e) => {

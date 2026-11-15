@@ -72,13 +72,13 @@ export function buildOrder(candidates: Candidate[], cfg: CurationConfig): Video[
     if (remaining.length === 0) break;
 
     const wantSeed = cfg.seedShare > 0 && (out.length === 0 || seedCount / out.length < cfg.seedShare);
-    const wanted = remaining.filter(([, q]) => (q.source === 'seed') === wantSeed);
-    const pool = wanted.length > 0 ? wanted : remaining;
-
-    let eligible = pool.filter(([key]) => !lastAired.has(key) || clock - lastAired.get(key)! >= cfg.artistGapSeconds);
+    const rested = remaining.filter(([key]) => !lastAired.has(key) || clock - lastAired.get(key)! >= cfg.artistGapSeconds);
+    const wanted = rested.filter(([, q]) => (q.source === 'seed') === wantSeed);
+    // The gap outranks the seed share: fall back to the other source before relaxing the gap.
+    let eligible = wanted.length > 0 ? wanted : rested;
     if (eligible.length === 0) {
       // Relax the gap: the artist that aired longest ago goes next.
-      const oldest = pool.reduce((a, b) => (lastAired.get(a[0])! <= lastAired.get(b[0])! ? a : b));
+      const oldest = remaining.reduce((a, b) => (lastAired.get(a[0])! <= lastAired.get(b[0])! ? a : b));
       eligible = [oldest];
     }
 

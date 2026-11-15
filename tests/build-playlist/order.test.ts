@@ -71,6 +71,12 @@ describe('buildOrder', () => {
     expect(minGap(out)).toBeGreaterThanOrEqual(10800);
   });
 
+  test('gap beats seed share: few seed artists do not repeat while discovered artists are eligible', () => {
+    const out = buildOrder([...many(3, 3, { source: 'seed' }, 'seed'), ...many(120, 1)], cfg());
+    expect(out).toHaveLength(129);
+    expect(minGap(out)).toBeGreaterThanOrEqual(10800);
+  });
+
   test('mix: about a third of the slots go to seed artists', () => {
     const out = buildOrder([...many(30, 1, { source: 'seed' }, 'seed'), ...many(60, 1)], cfg());
     const share = out.filter((v) => v.source === 'seed').length / out.length;
