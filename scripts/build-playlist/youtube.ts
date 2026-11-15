@@ -30,6 +30,14 @@ interface VideoResource {
   status?: { embeddable?: boolean; privacyStatus?: string };
 }
 
+class YoutubeApiError extends Error {
+  readonly status: number;
+  constructor(message: string, status: number) {
+    super(message);
+    this.status = status;
+  }
+}
+
 export function createYoutube(apiKey: string, fetchFn: typeof fetch) {
   async function get<T>(endpoint: string, params: Record<string, string>): Promise<T> {
     const url = new URL(endpoint, API);
@@ -38,7 +46,10 @@ export function createYoutube(apiKey: string, fetchFn: typeof fetch) {
     if (!res.ok) {
       // Never echo the URL: it carries the key.
       const body = (await res.json().catch(() => null)) as { error?: { message?: string } } | null;
-      throw new Error(`YouTube ${endpoint} failed: HTTP ${res.status}${body?.error?.message ? ` (${body.error.message})` : ''}`);
+      throw new YoutubeApiError(
+        `YouTube ${endpoint} failed: HTTP ${res.status}${body?.error?.message ? ` (${body.error.message})` : ''}`,
+        res.status,
+      );
     }
     return (await res.json()) as T;
   }
@@ -73,12 +84,21 @@ export function createYoutube(apiKey: string, fetchFn: typeof fetch) {
       const ids: string[] = [];
       let pageToken: string | undefined;
       do {
-        const page = await get<{ items?: { contentDetails?: { videoId?: string } }[]; nextPageToken?: string }>('playlistItems', {
-          part: 'contentDetails',
-          playlistId,
-          maxResults: String(PAGE),
-          ...(pageToken ? { pageToken } : {}),
-        });
+        type Page = { items?: { contentDetails?: { videoId?: string } }[]; nextPageToken?: string };
+        let page: Page;
+        try {
+          page = await get<Page>('playlistItems', {
+            part: 'contentDetails',
+            playlistId,
+            maxResults: String(PAGE),
+            ...(pageToken ? { pageToken } : {}),
+          });
+        } catch (e) {
+          // A channel with no uploads of its own (e.g. an Official Artist Channel
+          // whose videos live on the label's channel) has no uploads playlist.
+          if (e instanceof YoutubeApiError && e.status === 404) break;
+          throw e;
+        }
         for (const item of page.items ?? []) {
           const id = item.contentDetails?.videoId;
           if (id && ids.length < max) ids.push(id);

@@ -86,6 +86,14 @@ describe('uploads', () => {
     expect(await createYoutube('test-key', api.fn).uploads('UCnope')).toEqual([]);
   });
 
+  test('a channel with no uploads playlist (404 playlistNotFound) → []', async () => {
+    // Official Artist Channels whose videos all live on other channels have no uploads playlist.
+    const api = fakeApi({
+      channels: () => ({ items: [{ contentDetails: { relatedPlaylists: { uploads: 'UUempty' } } }] }),
+    });
+    expect(await createYoutube('test-key', api.fn).uploads('UCempty')).toEqual([]);
+  });
+
   test('API errors throw without leaking the key', async () => {
     const api = fakeApi({});
     const err = await createYoutube('test-key', api.fn).uploads('UCband').catch((e: Error) => e);
