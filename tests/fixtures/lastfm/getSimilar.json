@@ -1,0 +1,10 @@
+{
+  "similarartists": {
+    "artist": [
+      { "name": "Oh Sees", "mbid": "", "match": "1", "url": "https://www.last.fm/music/Oh+Sees" },
+      { "name": "Ty Segall", "mbid": "", "match": "0.92", "url": "https://www.last.fm/music/Ty+Segall" },
+      { "name": "Osees", "mbid": "", "match": "0.8", "url": "https://www.last.fm/music/Osees" }
+    ],
+    "@attr": { "artist": "King Gizzard & the Lizard Wizard" }
+  }
+}

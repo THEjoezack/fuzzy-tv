@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-11-15T00:00:00.000Z",
+  "totalSeconds": 841,
+  "videos": [
+    { "id": "rdQyYsl_rDs", "artist": "King Gizzard & the Lizard Wizard", "title": "Alien Metal", "durationSeconds": 308, "source": "seed" },
+    { "id": "Gpld7f3w2Jo", "artist": "Chelsea Wolfe", "title": "The Dark (Live on KEXP)", "durationSeconds": 219, "source": "seed" },
+    { "id": "1gLt9sRdADE", "artist": "SLIFT", "title": "The Day of Execution", "durationSeconds": 314, "source": "seed" }
+  ]
+}

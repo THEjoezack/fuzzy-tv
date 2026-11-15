@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  environment = { NODE_VERSION = "22" }
+
+# The schedule changes when the owner commits a new playlist; keep caches short.
+[[headers]]
+  for = "/videos.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
