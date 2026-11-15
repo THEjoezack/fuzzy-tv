@@ -1,0 +1,14 @@
+{
+  "artist": {
+    "name": "SLIFT",
+    "url": "https://www.last.fm/music/SLIFT",
+    "stats": { "listeners": "48213", "playcount": "1203321" },
+    "tags": {
+      "tag": [
+        { "name": "Psychedelic Rock", "url": "https://www.last.fm/tag/psychedelic+rock" },
+        { "name": "space rock", "url": "https://www.last.fm/tag/space+rock" },
+        { "name": "french", "url": "https://www.last.fm/tag/french" }
+      ]
+    }
+  }
+}

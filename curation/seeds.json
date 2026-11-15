@@ -1,0 +1,17 @@
+{
+  "seedArtists": ["King Gizzard & the Lizard Wizard", "Chelsea Wolfe", "SLIFT"],
+  "trustedChannels": [
+    { "name": "KEXP", "channelId": "UC3I2GFN_F8WudD_2jUZbojA" },
+    { "name": "Sub Pop", "channelId": "UCsgEkEWaXKQwrhlLHFbcQFw" },
+    { "name": "Sacred Bones Records", "channelId": "UCurYp7uH6wCzrc9ugUxz2Xw" }
+  ],
+  "genreTags": ["rock", "psychedelic rock", "garage rock", "stoner rock", "post-punk", "punk", "indie rock", "noise rock", "shoegaze", "alternative rock", "heavy psych", "doom metal", "space rock", "krautrock"],
+  "discoveryDepth": 2,
+  "similarPerArtist": 10,
+  "maxVideosPerArtist": 3,
+  "seedShare": 0.333,
+  "artistGapSeconds": 10800,
+  "maxTotalSeconds": 86400,
+  "minViews": 2000,
+  "shuffleSeed": 1
+}
