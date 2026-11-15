@@ -3,3 +3,7 @@ dist/
 .env
 curation/cache/
 .netlify/
+.superpowers/
+*.log
+.DS_Store
+*.local
