@@ -1,9 +1,964 @@
 {
-  "generatedAt": "2026-11-15T00:00:00.000Z",
-  "totalSeconds": 841,
+  "generatedAt": "2026-11-15T21:55:57.291Z",
+  "totalSeconds": 38225,
   "videos": [
-    { "id": "rdQyYsl_rDs", "artist": "King Gizzard & the Lizard Wizard", "title": "Alien Metal", "durationSeconds": 308, "source": "seed" },
-    { "id": "Gpld7f3w2Jo", "artist": "Chelsea Wolfe", "title": "The Dark (Live on KEXP)", "durationSeconds": 219, "source": "seed" },
-    { "id": "1gLt9sRdADE", "artist": "SLIFT", "title": "The Day of Execution", "durationSeconds": 314, "source": "seed" }
+    {
+      "id": "I1u3GCvJTo8",
+      "artist": "Chelsea Wolfe",
+      "title": "Death is Not the End",
+      "durationSeconds": 271,
+      "source": "seed",
+      "album": "Death Is Not The End"
+    },
+    {
+      "id": "6qqLOIZQo54",
+      "artist": "Somali Yacht Club",
+      "title": "Crows",
+      "durationSeconds": 499,
+      "source": "discovered",
+      "album": "The Sea"
+    },
+    {
+      "id": "S8cMnAmMAKk",
+      "artist": "Lethian Dreams",
+      "title": "Dust",
+      "durationSeconds": 370,
+      "source": "discovered",
+      "album": "Red Silence Lodge"
+    },
+    {
+      "id": "4xfPPr29Yfo",
+      "artist": "GGGOLDDD",
+      "title": "GGGOLDDD \"Notes On How To Trust\"",
+      "durationSeconds": 200,
+      "source": "discovered"
+    },
+    {
+      "id": "TWUIsRsvJC8",
+      "artist": "King Gizzard & the Lizard Wizard",
+      "title": "Grow Wings and Fly",
+      "durationSeconds": 309,
+      "source": "seed",
+      "album": "Grow Wings and Fly"
+    },
+    {
+      "id": "MYXBo2pdpUw",
+      "artist": "Night Beats",
+      "title": "Her Cold Cold Heart",
+      "durationSeconds": 189,
+      "source": "discovered",
+      "album": "Myth of a Man"
+    },
+    {
+      "id": "4liBnts47d8",
+      "artist": "The Re-Stoned",
+      "title": "Solaris @ Guitar Club",
+      "durationSeconds": 409,
+      "source": "discovered"
+    },
+    {
+      "id": "cxyQmgla400",
+      "artist": "SLIFT",
+      "title": "SLIFT • HYPERION",
+      "durationSeconds": 268,
+      "source": "seed"
+    },
+    {
+      "id": "WckSWlEf2nM",
+      "artist": "Esben and the Witch",
+      "title": "No Dog",
+      "durationSeconds": 383,
+      "source": "discovered",
+      "album": "A New Nature"
+    },
+    {
+      "id": "2ZgxqzNY3nA",
+      "artist": "Pond",
+      "title": "Terrestrials",
+      "durationSeconds": 238,
+      "source": "discovered",
+      "album": "Terrestrials"
+    },
+    {
+      "id": "971D-gZYS_8",
+      "artist": "Asteroid",
+      "title": "Terminator Sorcerer VS Imperium | Warhammer 40k Space Marine 2",
+      "durationSeconds": 311,
+      "source": "discovered"
+    },
+    {
+      "id": "19d-UkzDhHA",
+      "artist": "Spiral Drive",
+      "title": "Space Train",
+      "durationSeconds": 242,
+      "source": "discovered",
+      "album": "Space Train - Single"
+    },
+    {
+      "id": "x1iHyN4ABH8",
+      "artist": "DOOM GONG",
+      "title": "What was the Question?",
+      "durationSeconds": 341,
+      "source": "discovered",
+      "album": "What was the Question?"
+    },
+    {
+      "id": "UJmuQ2WfE4M",
+      "artist": "Mars Red Sky",
+      "title": "Up The Stairs - OFFICIAL",
+      "durationSeconds": 480,
+      "source": "discovered"
+    },
+    {
+      "id": "Y7ZpPsaMNMM",
+      "artist": "Savages",
+      "title": "Adore",
+      "durationSeconds": 303,
+      "source": "discovered",
+      "album": "Adore Life"
+    },
+    {
+      "id": "xZxxmJIBFu8",
+      "artist": "Minami Deutsch",
+      "title": "Can't Get There",
+      "durationSeconds": 445,
+      "source": "discovered",
+      "album": "Can't Get There EP"
+    },
+    {
+      "id": "bW7m5TPkfZg",
+      "artist": "The Lazy Eyes",
+      "title": "Farfisa show and tell ✨",
+      "durationSeconds": 102,
+      "source": "discovered"
+    },
+    {
+      "id": "q0qlLNhzpD8",
+      "artist": "All Them Witches",
+      "title": "The Welterweight",
+      "durationSeconds": 384,
+      "source": "discovered",
+      "album": "House Of Mirrors"
+    },
+    {
+      "id": "FYEcSZorH94",
+      "artist": "Pipe-Eye",
+      "title": "Lords of Lithium",
+      "durationSeconds": 210,
+      "source": "discovered",
+      "album": "Pipe-defy"
+    },
+    {
+      "id": "UAEr1EECMXk",
+      "artist": "Acid Dad",
+      "title": "Don't Get Taken",
+      "durationSeconds": 208,
+      "source": "discovered",
+      "album": "Let's Plan A Robbery"
+    },
+    {
+      "id": "d9lsBG8zPvw",
+      "artist": "Slomosa",
+      "title": "Red Thundra",
+      "durationSeconds": 335,
+      "source": "discovered",
+      "album": "Tundra Rock"
+    },
+    {
+      "id": "s9pZxnJAwQI",
+      "artist": "The Heavy Eyes",
+      "title": "Voytek",
+      "durationSeconds": 157,
+      "source": "discovered",
+      "album": "Heavy Eyes"
+    },
+    {
+      "id": "x5GxjKpDwmw",
+      "artist": "Darkher",
+      "title": "Finnish PVP Ironman?",
+      "durationSeconds": 122,
+      "source": "discovered"
+    },
+    {
+      "id": "_PhAMlJDMeI",
+      "artist": "Warpaint",
+      "title": "New Song",
+      "durationSeconds": 256,
+      "source": "discovered",
+      "album": "Heads Up"
+    },
+    {
+      "id": "bgwGEG10WIY",
+      "artist": "The Soft Moon",
+      "title": "Parallels",
+      "durationSeconds": 190,
+      "source": "discovered",
+      "album": "The Soft Moon"
+    },
+    {
+      "id": "ZXjDAacWos8",
+      "artist": "Heavy Moss",
+      "title": "Treadmills",
+      "durationSeconds": 368,
+      "source": "discovered",
+      "album": "Dead Slow"
+    },
+    {
+      "id": "5BRdvFUWPS8",
+      "artist": "Spaceslug",
+      "title": "Obsolith (New Single 2018)",
+      "durationSeconds": 476,
+      "source": "discovered"
+    },
+    {
+      "id": "LPudkEzu03E",
+      "artist": "Ty Segall",
+      "title": "Ty Segall \"Black Paint\"",
+      "durationSeconds": 119,
+      "source": "discovered"
+    },
+    {
+      "id": "inoXeuoYx3A",
+      "artist": "Osees",
+      "title": "I Was Denied (Live on KEXP)",
+      "durationSeconds": 236,
+      "source": "discovered"
+    },
+    {
+      "id": "jx28Xj7bRqo",
+      "artist": "Delving",
+      "title": "Zodiak [single edit]",
+      "durationSeconds": 512,
+      "source": "discovered"
+    },
+    {
+      "id": "6dtA9ka5fj4",
+      "artist": "Naxatras",
+      "title": "Waves",
+      "durationSeconds": 441,
+      "source": "discovered",
+      "album": "Naxatras"
+    },
+    {
+      "id": "cg8sjXcVsJQ",
+      "artist": "The Murlocs",
+      "title": "Undone And Unashamed",
+      "durationSeconds": 245,
+      "source": "discovered",
+      "album": "Calm Ya Farm"
+    },
+    {
+      "id": "9cO9Xg2r9MU",
+      "artist": "Levitation Room",
+      "title": "Visions of My Mind (Live Session)",
+      "durationSeconds": 241,
+      "source": "discovered"
+    },
+    {
+      "id": "uNc5kD6MTXA",
+      "artist": "Frankie and the Witch Fingers",
+      "title": "Tea",
+      "durationSeconds": 255,
+      "source": "discovered",
+      "album": "Drip/ Tea"
+    },
+    {
+      "id": "Wubo_LC36Kk",
+      "artist": "Maha Sohona",
+      "title": "Potions",
+      "durationSeconds": 414,
+      "source": "discovered",
+      "album": "Maha Sohona"
+    },
+    {
+      "id": "wX2NUdnZJIY",
+      "artist": "Moon Owl's Mages",
+      "title": "Brain Bog (Live at Treasure Valley Skate)",
+      "durationSeconds": 293,
+      "source": "discovered"
+    },
+    {
+      "id": "J2U1MnwfgPc",
+      "artist": "Chelsea Wolfe",
+      "title": "Seethe",
+      "durationSeconds": 200,
+      "source": "seed",
+      "album": "Seethe"
+    },
+    {
+      "id": "2TtJAKj2Mg4",
+      "artist": "Elephant Tree",
+      "title": "Bird",
+      "durationSeconds": 400,
+      "source": "discovered",
+      "album": "Habits"
+    },
+    {
+      "id": "ORTIgdqJthc",
+      "artist": "King Buffalo",
+      "title": "Vagabond",
+      "durationSeconds": 314,
+      "source": "discovered",
+      "album": "Doomsayer"
+    },
+    {
+      "id": "cV27xLa8Q-w",
+      "artist": "Remina",
+      "title": "CLASSIC LEAGUE IS OFFICIALLY DEAD",
+      "durationSeconds": 107,
+      "source": "discovered"
+    },
+    {
+      "id": "2SR1mLrwd5M",
+      "artist": "Psychlona",
+      "title": "The Owl",
+      "durationSeconds": 565,
+      "source": "discovered",
+      "album": "Venus Skytrip"
+    },
+    {
+      "id": "H7t2FL1SRaE",
+      "artist": "King Gizzard & the Lizard Wizard",
+      "title": "Deadstick",
+      "durationSeconds": 216,
+      "source": "seed",
+      "album": "Deadstick"
+    },
+    {
+      "id": "f_6-ghKpbWk",
+      "artist": "Elder",
+      "title": "Pulling it all asunder Down into the darkest night",
+      "durationSeconds": 60,
+      "source": "discovered"
+    },
+    {
+      "id": "cNIX9Y0OsHE",
+      "artist": "Nice Biscuit",
+      "title": "Fem Chem",
+      "durationSeconds": 201,
+      "source": "discovered",
+      "album": "Create Simulate • Passing Over"
+    },
+    {
+      "id": "NAJPzNdo1yQ",
+      "artist": "Moses Gunn Collective",
+      "title": "Back into the Womb",
+      "durationSeconds": 222,
+      "source": "discovered",
+      "album": "Mercy Mountain"
+    },
+    {
+      "id": "mOQMibf4HLg",
+      "artist": "SLIFT",
+      "title": "SLIFT • UMMON",
+      "durationSeconds": 346,
+      "source": "seed"
+    },
+    {
+      "id": "XXmy9b2CFD8",
+      "artist": "The KVB",
+      "title": "Hands",
+      "durationSeconds": 215,
+      "source": "discovered",
+      "album": "Always Then"
+    },
+    {
+      "id": "-WJrQBa21Kc",
+      "artist": "Graveyard",
+      "title": "Hisingen Blues",
+      "durationSeconds": 254,
+      "source": "discovered",
+      "album": "Hisingen Blues"
+    },
+    {
+      "id": "d2Vg1TGl7iQ",
+      "artist": "Trees of Eternity",
+      "title": "A Million Tears",
+      "durationSeconds": 443,
+      "source": "discovered",
+      "album": "Hour of the Nightingale"
+    },
+    {
+      "id": "H4uNl4F0mPU",
+      "artist": "Asteroid",
+      "title": "Helldivers 2 but it's an RTS game",
+      "durationSeconds": 497,
+      "source": "discovered"
+    },
+    {
+      "id": "oTf47abqECc",
+      "artist": "Pond",
+      "title": "Two Hands",
+      "durationSeconds": 285,
+      "source": "discovered",
+      "album": "Two Hands"
+    },
+    {
+      "id": "5btrH2ZuXzM",
+      "artist": "The Re-Stoned",
+      "title": "The Loom (Live at Guitar Club) Official music video",
+      "durationSeconds": 385,
+      "source": "discovered"
+    },
+    {
+      "id": "pCoimwOD7p8",
+      "artist": "Somali Yacht Club",
+      "title": "Blood Leaves a Trail",
+      "durationSeconds": 380,
+      "source": "discovered",
+      "album": "The Sea"
+    },
+    {
+      "id": "kvvhHT0B5ck",
+      "artist": "Savages",
+      "title": "The Answer",
+      "durationSeconds": 213,
+      "source": "discovered",
+      "album": "Adore Life"
+    },
+    {
+      "id": "iIGcUd9W6Cw",
+      "artist": "GGGOLDDD",
+      "title": "GGGOLDDD \"Taken By Storm\"",
+      "durationSeconds": 317,
+      "source": "discovered"
+    },
+    {
+      "id": "UZPyLUntPOc",
+      "artist": "DOOM GONG",
+      "title": "My Favorite Things (Live)",
+      "durationSeconds": 405,
+      "source": "discovered"
+    },
+    {
+      "id": "NWBrSZKoH0Y",
+      "artist": "Spiral Drive",
+      "title": "Lines For Lives",
+      "durationSeconds": 322,
+      "source": "discovered",
+      "album": "Visions In Bloom"
+    },
+    {
+      "id": "BXtL6W0RXpg",
+      "artist": "All Them Witches",
+      "title": "Aethernet",
+      "durationSeconds": 298,
+      "source": "discovered",
+      "album": "House Of Mirrors"
+    },
+    {
+      "id": "7R444cN-CSg",
+      "artist": "The Lazy Eyes",
+      "title": "Always In The Back Of My Mind",
+      "durationSeconds": 218,
+      "source": "discovered",
+      "album": "Cheesy Love Songs"
+    },
+    {
+      "id": "CtZzrXu19X0",
+      "artist": "Lethian Dreams",
+      "title": "Red Silence Lodge (2014)",
+      "durationSeconds": 496,
+      "source": "discovered"
+    },
+    {
+      "id": "SvYnkbwI-VI",
+      "artist": "Night Beats",
+      "title": "Hot Ghee",
+      "durationSeconds": 224,
+      "source": "discovered",
+      "album": "Rajan"
+    },
+    {
+      "id": "X0ntK9JsGFg",
+      "artist": "Spaceslug",
+      "title": "Spacerunner (New Single 2019)",
+      "durationSeconds": 399,
+      "source": "discovered"
+    },
+    {
+      "id": "6I5GISC686s",
+      "artist": "Heavy Moss",
+      "title": "Summa (Live in the Shed)",
+      "durationSeconds": 339,
+      "source": "discovered",
+      "album": "Summa (Live in the Shed)"
+    },
+    {
+      "id": "RXTBD6rQU3A",
+      "artist": "Acid Dad",
+      "title": "Grim",
+      "durationSeconds": 249,
+      "source": "discovered",
+      "album": "Grim-Brain Body"
+    },
+    {
+      "id": "dJzwlyyC28k",
+      "artist": "Pipe-Eye",
+      "title": "Catch Me On A Break",
+      "durationSeconds": 263,
+      "source": "discovered",
+      "album": "Pipe-defy"
+    },
+    {
+      "id": "L5jSEhyLTPk",
+      "artist": "Ty Segall",
+      "title": "Ty Segall \"Running to Nowhere\"",
+      "durationSeconds": 150,
+      "source": "discovered"
+    },
+    {
+      "id": "BubLRff0YwY",
+      "artist": "Delving",
+      "title": "Omnipresence",
+      "durationSeconds": 432,
+      "source": "discovered",
+      "album": "All Paths Diverge"
+    },
+    {
+      "id": "z1PM2KT1j5o",
+      "artist": "Mars Red Sky",
+      "title": "The Light Beyond - Official",
+      "durationSeconds": 476,
+      "source": "discovered"
+    },
+    {
+      "id": "GDdOoh-OgE0",
+      "artist": "Levitation Room",
+      "title": "Reasons Why (Live Session)",
+      "durationSeconds": 218,
+      "source": "discovered"
+    },
+    {
+      "id": "KVWm4vjfHpU",
+      "artist": "Frankie and the Witch Fingers",
+      "title": "Get Down",
+      "durationSeconds": 216,
+      "source": "discovered"
+    },
+    {
+      "id": "Mvx-alP80FU",
+      "artist": "Naxatras",
+      "title": "Numenia",
+      "durationSeconds": 312,
+      "source": "discovered",
+      "album": "Numenia (Single)"
+    },
+    {
+      "id": "ie6plcFQ330",
+      "artist": "Warpaint",
+      "title": "Disco//Very - Keep It Healthy",
+      "durationSeconds": 491,
+      "source": "discovered"
+    },
+    {
+      "id": "QrqTW01HTas",
+      "artist": "Chelsea Wolfe",
+      "title": "Cold",
+      "durationSeconds": 277,
+      "source": "seed",
+      "album": "Cold"
+    },
+    {
+      "id": "zHlBwO5F-RM",
+      "artist": "The Heavy Eyes",
+      "title": "Iron Giants",
+      "durationSeconds": 226,
+      "source": "discovered",
+      "album": "Heavy Eyes"
+    },
+    {
+      "id": "YbFlWA0o2B8",
+      "artist": "The Soft Moon",
+      "title": "Become The Lies",
+      "durationSeconds": 269,
+      "source": "discovered",
+      "album": "Exister"
+    },
+    {
+      "id": "lDpNke_Em_g",
+      "artist": "Elephant Tree",
+      "title": "Attack Of The Altaica",
+      "durationSeconds": 410,
+      "source": "discovered",
+      "album": "Theia"
+    },
+    {
+      "id": "RXKRsvwsG20",
+      "artist": "Remina",
+      "title": "4 LEAGUE CLASSIC CHAMPIONS COMING BACK",
+      "durationSeconds": 141,
+      "source": "discovered"
+    },
+    {
+      "id": "mp-HWukUDSE",
+      "artist": "King Gizzard & the Lizard Wizard",
+      "title": "Level 5",
+      "durationSeconds": 377,
+      "source": "seed",
+      "album": "Level 5"
+    },
+    {
+      "id": "Vo73AyUfVz0",
+      "artist": "Elder",
+      "title": "Capture/Release",
+      "durationSeconds": 526,
+      "source": "discovered",
+      "album": "Capture/Release"
+    },
+    {
+      "id": "o17rPzDSWSY",
+      "artist": "SLIFT",
+      "title": "SLIFT • ALTITUDE LAKE",
+      "durationSeconds": 364,
+      "source": "seed"
+    },
+    {
+      "id": "DDDKWUpZ9Ok",
+      "artist": "Psychlona",
+      "title": "Resin",
+      "durationSeconds": 340,
+      "source": "discovered",
+      "album": "Venus Skytrip"
+    },
+    {
+      "id": "f0ojzXv65W0",
+      "artist": "The Murlocs",
+      "title": "Initiative",
+      "durationSeconds": 196,
+      "source": "discovered",
+      "album": "Calm Ya Farm"
+    },
+    {
+      "id": "Y6-ahJvHIbs",
+      "artist": "Moses Gunn Collective",
+      "title": "Hole In The Wall",
+      "durationSeconds": 220,
+      "source": "discovered",
+      "album": "Mercy Mountain"
+    },
+    {
+      "id": "P2yc_U2Chlw",
+      "artist": "Slomosa",
+      "title": "Horses",
+      "durationSeconds": 307,
+      "source": "discovered",
+      "album": "Horses - Single"
+    },
+    {
+      "id": "CEbY6nOtAQQ",
+      "artist": "The KVB",
+      "title": "Into The Night",
+      "durationSeconds": 298,
+      "source": "discovered",
+      "album": "Into The Night"
+    },
+    {
+      "id": "qYHU2wBu2TU",
+      "artist": "King Buffalo",
+      "title": "The Slick and the Dead [Single]",
+      "durationSeconds": 339,
+      "source": "discovered"
+    },
+    {
+      "id": "hcND9i1pSRo",
+      "artist": "Trees of Eternity",
+      "title": "Sinking Ships (demo version) Promo Video",
+      "durationSeconds": 227,
+      "source": "discovered"
+    },
+    {
+      "id": "BEcl132kqtU",
+      "artist": "Graveyard",
+      "title": "Goliath",
+      "durationSeconds": 175,
+      "source": "discovered",
+      "album": "Lights Out"
+    },
+    {
+      "id": "HCBi8EoqEII",
+      "artist": "Osees",
+      "title": "Plastic Plant (Live on KEXP)",
+      "durationSeconds": 316,
+      "source": "discovered"
+    },
+    {
+      "id": "HlVqmSF2-_4",
+      "artist": "Nice Biscuit",
+      "title": "Passing Over",
+      "durationSeconds": 398,
+      "source": "discovered",
+      "album": "Passing Over - Single"
+    },
+    {
+      "id": "D7gjejIOZ_c",
+      "artist": "GGGOLDDD",
+      "title": "GGGOLDDD \"He Is Not\"",
+      "durationSeconds": 265,
+      "source": "discovered"
+    },
+    {
+      "id": "FuIB8HEmnoY",
+      "artist": "Savages",
+      "title": "Shut Up",
+      "durationSeconds": 314,
+      "source": "discovered",
+      "album": "Silence Yourself"
+    },
+    {
+      "id": "SX3bTufKboc",
+      "artist": "Somali Yacht Club",
+      "title": "Up In the Sky",
+      "durationSeconds": 484,
+      "source": "discovered",
+      "album": "The Sun"
+    },
+    {
+      "id": "vtW2231779w",
+      "artist": "DOOM GONG",
+      "title": "Annihilator",
+      "durationSeconds": 216,
+      "source": "discovered",
+      "album": "Annihilator"
+    },
+    {
+      "id": "ltsMxncUE8k",
+      "artist": "Asteroid",
+      "title": "Dreadnought VS Chaos | Warhammer 40k Space Marine 2",
+      "durationSeconds": 407,
+      "source": "discovered"
+    },
+    {
+      "id": "DjDlYW31irY",
+      "artist": "Lethian Dreams",
+      "title": "Shades",
+      "durationSeconds": 378,
+      "source": "discovered",
+      "album": "Red Silence Lodge"
+    },
+    {
+      "id": "6zF0TwjTr28",
+      "artist": "Night Beats",
+      "title": "New Day",
+      "durationSeconds": 213,
+      "source": "discovered",
+      "album": "Outlaw R&B"
+    },
+    {
+      "id": "g_sGuaVGmMs",
+      "artist": "Pond",
+      "title": "Skyworks",
+      "durationSeconds": 266,
+      "source": "discovered",
+      "album": "Terrestrials"
+    },
+    {
+      "id": "6I221jU1XO0",
+      "artist": "All Them Witches",
+      "title": "Red Rocking Chair",
+      "durationSeconds": 389,
+      "source": "discovered",
+      "album": "Live at Ancienne Belgique"
+    },
+    {
+      "id": "YMkvghEBS7Q",
+      "artist": "Pipe-Eye",
+      "title": "Travertine",
+      "durationSeconds": 299,
+      "source": "discovered",
+      "album": "Pipe-defy"
+    },
+    {
+      "id": "hzLv0N1O7QY",
+      "artist": "Spaceslug",
+      "title": "Bemused And Gone (New Track 2017)",
+      "durationSeconds": 307,
+      "source": "discovered"
+    },
+    {
+      "id": "HvDzO-wxwIk",
+      "artist": "Heavy Moss",
+      "title": "Star",
+      "durationSeconds": 313,
+      "source": "discovered",
+      "album": "Dead Slow"
+    },
+    {
+      "id": "cKuXBovKUI0",
+      "artist": "The Re-Stoned",
+      "title": "Human Without Body (Live in studio)",
+      "durationSeconds": 439,
+      "source": "discovered"
+    },
+    {
+      "id": "rOiXSYIbmGY",
+      "artist": "Spiral Drive",
+      "title": "Inner Truth",
+      "durationSeconds": 277,
+      "source": "discovered",
+      "album": "Visions In Bloom"
+    },
+    {
+      "id": "H_IPt6_erYM",
+      "artist": "Mars Red Sky",
+      "title": "Way To Rome - OFFICIAL",
+      "durationSeconds": 321,
+      "source": "discovered"
+    },
+    {
+      "id": "P6Xw4NEqavs",
+      "artist": "Levitation Room",
+      "title": "Friends (Live Session)",
+      "durationSeconds": 285,
+      "source": "discovered"
+    },
+    {
+      "id": "OnuFYYJHaY0",
+      "artist": "Warpaint",
+      "title": "Love Is To Die",
+      "durationSeconds": 290,
+      "source": "discovered",
+      "album": "Warpaint"
+    },
+    {
+      "id": "xHtwqRCDFTU",
+      "artist": "Delving",
+      "title": "The Reflecting Pool",
+      "durationSeconds": 571,
+      "source": "discovered",
+      "album": "Hirschbrunnen"
+    },
+    {
+      "id": "ceFnBRVnrq4",
+      "artist": "Frankie and the Witch Fingers",
+      "title": "Sunshine Earthquake",
+      "durationSeconds": 177,
+      "source": "discovered"
+    },
+    {
+      "id": "1KkZyjo1J6c",
+      "artist": "Acid Dad",
+      "title": "Brain Body",
+      "durationSeconds": 292,
+      "source": "discovered",
+      "album": "Grim-Brain Body"
+    },
+    {
+      "id": "b9t8Oex9BpQ",
+      "artist": "The Soft Moon",
+      "title": "Circles",
+      "durationSeconds": 243,
+      "source": "discovered",
+      "album": "The Soft Moon"
+    },
+    {
+      "id": "TaJ60TAX1a0",
+      "artist": "Elephant Tree",
+      "title": "Sails",
+      "durationSeconds": 269,
+      "source": "discovered",
+      "album": "Habits"
+    },
+    {
+      "id": "rkrKz0x6zl4",
+      "artist": "Remina",
+      "title": "K/DA FIRESTARTERS EASTER EGGS & SECRETS",
+      "durationSeconds": 189,
+      "source": "discovered"
+    },
+    {
+      "id": "yuS5CyMybno",
+      "artist": "The Heavy Eyes",
+      "title": "5%",
+      "durationSeconds": 235,
+      "source": "discovered",
+      "album": "Heavy Eyes"
+    },
+    {
+      "id": "CII5XCjIL4Y",
+      "artist": "Elder",
+      "title": "Through Zero",
+      "durationSeconds": 547,
+      "source": "discovered",
+      "album": "Through Zero"
+    },
+    {
+      "id": "5I3fI_Ezk5I",
+      "artist": "Naxatras",
+      "title": "Journey to Narahmon",
+      "durationSeconds": 366,
+      "source": "discovered"
+    },
+    {
+      "id": "MQe1lgwpyxQ",
+      "artist": "The Murlocs",
+      "title": "Francesca",
+      "durationSeconds": 163,
+      "source": "discovered",
+      "album": "Francesca"
+    },
+    {
+      "id": "_hyShhQz0V4",
+      "artist": "Psychlona",
+      "title": "Blast Off",
+      "durationSeconds": 457,
+      "source": "discovered",
+      "album": "Blast Off - Single"
+    },
+    {
+      "id": "bXcUtP_O0J4",
+      "artist": "Slomosa",
+      "title": "Battling Guns",
+      "durationSeconds": 314,
+      "source": "discovered",
+      "album": "Tundra Rock"
+    },
+    {
+      "id": "oYFG5x-kzr8",
+      "artist": "The KVB",
+      "title": "Never Enough (Demo Version)",
+      "durationSeconds": 263,
+      "source": "discovered",
+      "album": "The Black Sun (Demo EP)"
+    },
+    {
+      "id": "1JWxQswU-I0",
+      "artist": "King Buffalo",
+      "title": "Mammoth",
+      "durationSeconds": 373,
+      "source": "discovered",
+      "album": "Regenerator"
+    },
+    {
+      "id": "DKfv81O-6FA",
+      "artist": "Graveyard",
+      "title": "Endless Night",
+      "durationSeconds": 167,
+      "source": "discovered",
+      "album": "Lights Out"
+    },
+    {
+      "id": "75kbZZ9WVAI",
+      "artist": "Moses Gunn Collective",
+      "title": "Shalala",
+      "durationSeconds": 228,
+      "source": "discovered",
+      "album": "Mercy Mountain"
+    },
+    {
+      "id": "mbJVMeqNBAc",
+      "artist": "Osees",
+      "title": "Enemy Destruct (Live on KEXP)",
+      "durationSeconds": 190,
+      "source": "discovered"
+    },
+    {
+      "id": "15FasmSf8Ik",
+      "artist": "Nice Biscuit",
+      "title": "Candle",
+      "durationSeconds": 362,
+      "source": "discovered",
+      "album": "Create Simulate"
+    }
   ]
 }
